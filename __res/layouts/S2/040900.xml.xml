@@ -1,0 +1,754 @@
+<?xml version='1.0'?>
+<root>
+	<bounds x="0" y="33" width="1728" height="1012" extendedState="6"/>
+	<windows/>
+	<views>
+		<view name="Participants">
+			<property name="column.Name.order" value="2"/>
+			<property name="column.ID.visible" value="true"/>
+			<property name="column.Name.width" value="87"/>
+			<property name="column.Group.visible" value="false"/>
+			<property name="column.Sex.width" value="75"/>
+			<property name="column.First Language.width" value="75"/>
+			<property name="column.Name.visible" value="true"/>
+			<property name="column.Birthplace.width" value="75"/>
+			<property name="column.ID.width" value="80"/>
+			<property name="column.SES.width" value="75"/>
+			<property name="column.Role.width" value="95"/>
+			<property name="column.SES.visible" value="false"/>
+			<property name="column.Age.order" value="3"/>
+			<property name="column.Language.visible" value="false"/>
+			<property name="column.Education.width" value="75"/>
+			<property name="column.Role.visible" value="true"/>
+			<property name="column.Role.order" value="1"/>
+			<property name="column.Age.visible" value="true"/>
+			<property name="column.Language.width" value="75"/>
+			<property name="column.Group.width" value="75"/>
+			<property name="column.Birth Date.width" value="75"/>
+			<property name="column.Birthplace.visible" value="false"/>
+			<property name="column.Other.visible" value="false"/>
+			<property name="column.First Language.visible" value="false"/>
+			<property name="column.Birth Date.visible" value="false"/>
+			<property name="column.Sex.visible" value="false"/>
+			<property name="column.ID.order" value="0"/>
+			<property name="column.Education.visible" value="false"/>
+			<property name="column.Age.width" value="87"/>
+			<property name="column.Other.width" value="75"/>
+		</view>
+		<view name="Tier Management">
+			<property name="column.Tier Font.visible" value="true"/>
+			<property name="column.Tier Font.width" value="134"/>
+			<property name="column.Tier Font.order" value="5"/>
+			<property name="column.Visible.visible" value="true"/>
+			<property name="column.Tier Name.visible" value="true"/>
+			<property name="column.CHAT Tier Name.order" value="4"/>
+			<property name="column.Blind.width" value="129"/>
+			<property name="column.Visible.order" value="1"/>
+			<property name="column.Aligned.visible" value="false"/>
+			<property name="column.Visible.width" value="27"/>
+			<property name="column.CHAT Tier Name.width" value="134"/>
+			<property name="column.CHAT Tier Name.visible" value="true"/>
+			<property name="column.Blind.order" value="2"/>
+			<property name="column.Tier Name.width" value="129"/>
+			<property name="column.Type.width" value="75"/>
+			<property name="column.Locked.order" value="0"/>
+			<property name="column.Aligned.width" value="75"/>
+			<property name="column.Locked.visible" value="true"/>
+			<property name="column.Blind.visible" value="true"/>
+			<property name="column.Tier Name.order" value="3"/>
+			<property name="column.Locked.width" value="27"/>
+			<property name="column.Type.visible" value="false"/>
+		</view>
+		<view name="Session Check">
+			<property name="showErrors" value="true"/>
+			<property name="showWarnings" value="true"/>
+		</view>
+		<view name="Timeline">
+			<property name="fontSizeDelta" value="0.0"/>
+			<property name="waveformSpikeSuppression" value="MEDIUM"/>
+		</view>
+		<view name="Syllabification &amp; Alignment">
+			<property name="showAlignment" value="true"/>
+			<property name="showActualIPA" value="true"/>
+			<property name="colorInAlignment" value="false"/>
+			<property name="showTargetIPA" value="true"/>
+			<property name="showDiacritics" value="false"/>
+		</view>
+		<view name="Transcript">
+			<property name="alignmentVisible" value="false"/>
+			<property name="syllabificationVisible" value="false"/>
+			<property name="singleRecordView" value="true"/>
+			<property name="headersVisible" value="true"/>
+		</view>
+		<view name="Media Player">
+			<property name="mediaCanvasX" value="791"/>
+			<property name="mediaCanvasY" value="0"/>
+			<property name="mediaCanvasWidth" value="577"/>
+			<property name="videoVisible" value="false"/>
+			<property name="mediaPlayerVisible" value="true"/>
+			<property name="mediaCanvasHeight" value="326"/>
+			<property name="embedded" value="true"/>
+		</view>
+		<view name="Search">
+			<property name="regex" value="true"/>
+			<property name="caseSensitive" value="false"/>
+			<property name="phonex" value="false"/>
+			<property name="liveUpdate" value="true"/>
+			<property name="includeComments" value="true"/>
+			<property name="includeGems" value="true"/>
+		</view>
+		<view name="PhonShell">
+			<property name="variablesVisible" value="false"/>
+		</view>
+	</views>
+	<stations>
+		<element name="external">
+			<layout factory="predefined">
+				<replacement id="rootexternal"/>
+				<delegate id="delegate_CommonDockStationFactory">
+					<id>external</id>
+					<root>true</root>
+					<content delegate="screen dock">
+						<placeholders>
+							<version>0</version>
+							<format>dock.PlaceholderList</format>
+						</placeholders>
+					</content>
+				</delegate>
+			</layout>
+			<adjacent>
+				<layout factory="dock.RootStationAdjacentFactory">
+					<type>dock.CExternalizeArea</type>
+				</layout>
+			</adjacent>
+			<children ignore="false"/>
+		</element>
+		<element name="ccontrol north">
+			<layout factory="predefined">
+				<replacement id="rootccontrol north"/>
+				<delegate id="delegate_CommonDockStationFactory">
+					<id>ccontrol north</id>
+					<root>true</root>
+					<content delegate="flap dock">
+						<window auto="true" direction="SOUTH"/>
+						<placeholders>
+							<version>0</version>
+							<format>dock.PlaceholderList</format>
+						</placeholders>
+					</content>
+				</delegate>
+			</layout>
+			<adjacent>
+				<layout factory="dock.RootStationAdjacentFactory">
+					<type>dock.CContentArea.minimize</type>
+				</layout>
+			</adjacent>
+			<children ignore="false"/>
+		</element>
+		<element name="ccontrol south">
+			<layout factory="predefined">
+				<replacement id="rootccontrol south"/>
+				<delegate id="delegate_CommonDockStationFactory">
+					<id>ccontrol south</id>
+					<root>true</root>
+					<content delegate="flap dock">
+						<window auto="true" direction="SOUTH"/>
+						<placeholders>
+							<version>0</version>
+							<format>dock.PlaceholderList</format>
+						</placeholders>
+					</content>
+				</delegate>
+			</layout>
+			<adjacent>
+				<layout factory="dock.RootStationAdjacentFactory">
+					<type>dock.CContentArea.minimize</type>
+				</layout>
+			</adjacent>
+			<children ignore="false"/>
+		</element>
+		<element name="ccontrol east">
+			<layout factory="predefined">
+				<replacement id="rootccontrol east"/>
+				<delegate id="delegate_CommonDockStationFactory">
+					<id>ccontrol east</id>
+					<root>true</root>
+					<content delegate="flap dock">
+						<window auto="true" direction="SOUTH"/>
+						<placeholders>
+							<version>0</version>
+							<format>dock.PlaceholderList</format>
+						</placeholders>
+					</content>
+				</delegate>
+			</layout>
+			<adjacent>
+				<layout factory="dock.RootStationAdjacentFactory">
+					<type>dock.CContentArea.minimize</type>
+				</layout>
+			</adjacent>
+			<children ignore="false"/>
+		</element>
+		<element name="ccontrol center">
+			<layout factory="predefined" placeholder="dock.single.ccontrol\ center">
+				<replacement id="rootccontrol center"/>
+				<delegate id="delegate_CommonDockStationFactory">
+					<id>ccontrol center</id>
+					<root>true</root>
+					<content delegate="SplitDockStationFactory">
+						<fullscreen-action>false</fullscreen-action>
+						<node nodeId="1782300184392" orientation="VERTICAL" divider="0.7203023758099352">
+							<node nodeId="1782300184394" orientation="HORIZONTAL" divider="0.25">
+								<node nodeId="1782300184396" orientation="VERTICAL" divider="0.5">
+									<leaf id="-1" nodeId="1782300184398">
+										<placeholders>
+											<placeholder>dock.single.left\-top</placeholder>
+										</placeholders>
+									</leaf>
+									<leaf id="-1" nodeId="1782300184400">
+										<placeholders>
+											<placeholder>dock.single.Tier\ Management</placeholder>
+											<placeholder>dock.single.left\-bottom</placeholder>
+											<placeholder>dock.single.left\-bottom.last</placeholder>
+										</placeholders>
+									</leaf>
+								</node>
+								<node nodeId="1782300184402" orientation="HORIZONTAL" divider="0.6666666666666666">
+									<node nodeId="1782300184404" orientation="VERTICAL" divider="0.25">
+										<leaf id="-1" nodeId="1782300184406">
+											<placeholders>
+												<placeholder>dock.single.work\-top</placeholder>
+											</placeholders>
+										</leaf>
+										<node nodeId="1782300184408" orientation="VERTICAL" divider="0.75">
+											<leaf id="0" nodeId="1782300184410">
+												<placeholders>
+													<placeholder>dock.single.work</placeholder>
+												</placeholders>
+												<placeholder-map>
+													<version>0</version>
+													<format>dock.SplitDockStation</format>
+													<entry>
+														<key shared="true">
+															<placeholder>dock.single.work</placeholder>
+															<placeholder>dock.single.Transcript</placeholder>
+														</key>
+														<item key="0.id" type="l">1782300184391</item>
+														<item key="0.array" type="b">true</item>
+														<item key="0.type" type="s">l</item>
+														<item key=".id" type="l">1782299607686</item>
+														<item key=".type" type="s">r</item>
+													</entry>
+												</placeholder-map>
+											</leaf>
+											<leaf id="-1" nodeId="1782300184412">
+												<placeholders>
+													<placeholder>dock.single.work\-bottom</placeholder>
+												</placeholders>
+											</leaf>
+										</node>
+									</node>
+									<leaf id="1" nodeId="1782300184418">
+										<placeholders>
+											<placeholder>dock.single.right\-top</placeholder>
+											<placeholder>dock.single.right\-bottom.last</placeholder>
+											<placeholder>dock.single.Schwa</placeholder>
+											<placeholder>dock.single.Search</placeholder>
+											<placeholder>dock.single.right\-top.last</placeholder>
+											<placeholder>dock.single.IPA\ Dictionary</placeholder>
+											<placeholder>dock.single.right\-bottom</placeholder>
+											<placeholder>dock.single.Syllabification\ \&amp;\ Alignment</placeholder>
+										</placeholders>
+										<placeholder-map>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.single.Search</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a"/>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.single.right\-top</placeholder>
+													<placeholder>dock.single.Schwa</placeholder>
+													<placeholder>dock.single.right\-top.last</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a"/>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.single.right\-bottom.last</placeholder>
+													<placeholder>dock.single.Syllabification\ \&amp;\ Alignment</placeholder>
+												</key>
+											</entry>
+										</placeholder-map>
+									</leaf>
+								</node>
+							</node>
+							<node nodeId="1782300184420" orientation="HORIZONTAL" divider="0.5">
+								<leaf id="2" nodeId="1782300184422">
+									<placeholders>
+										<placeholder>dock.single.Timeline</placeholder>
+										<placeholder>dock.single.bottom\-left</placeholder>
+										<placeholder>dock.single.Session\ Check</placeholder>
+										<placeholder>dock.single.bottom\-left.last</placeholder>
+									</placeholders>
+									<placeholder-map>
+										<version>0</version>
+										<format>dock.PlaceholderList</format>
+										<entry>
+											<key shared="false">
+												<placeholder>dock.single.Timeline</placeholder>
+											</key>
+										</entry>
+										<entry>
+											<key shared="false">
+												<placeholder>dock.single.bottom\-left</placeholder>
+												<placeholder>dock.single.Session\ Check</placeholder>
+												<placeholder>dock.single.bottom\-left.last</placeholder>
+											</key>
+										</entry>
+									</placeholder-map>
+								</leaf>
+								<leaf id="-1" nodeId="1782300184424">
+									<placeholders>
+										<placeholder>dock.single.bottom\-right</placeholder>
+									</placeholders>
+								</leaf>
+							</node>
+						</node>
+					</content>
+				</delegate>
+			</layout>
+			<adjacent>
+				<layout factory="dock.RootStationAdjacentFactory">
+					<type>dock.CContentArea.center</type>
+				</layout>
+			</adjacent>
+			<children ignore="false">
+				<child>
+					<layout factory="predefined" placeholder="dock.single.work">
+						<replacement id="rootwork"/>
+						<delegate id="delegate_CommonDockStationFactory">
+							<id>work</id>
+							<root>true</root>
+							<content delegate="SplitDockStationFactory">
+								<fullscreen-action>false</fullscreen-action>
+								<leaf id="0" nodeId="1782300184391">
+									<placeholders>
+										<placeholder>dock.single.work</placeholder>
+										<placeholder>dock.single.Transcript</placeholder>
+									</placeholders>
+								</leaf>
+							</content>
+						</delegate>
+					</layout>
+					<adjacent>
+						<layout factory="dock.RootStationAdjacentFactory">
+							<type>dock.CWorkingArea</type>
+						</layout>
+					</adjacent>
+					<children ignore="false">
+						<child>
+							<layout factory="predefined" placeholder="dock.single.Transcript">
+								<replacement id="dockablesingle Transcript"/>
+								<delegate id="delegate_ccontrol backup factory id">
+									<id>Transcript</id>
+									<area>work</area>
+								</delegate>
+							</layout>
+							<children ignore="false"/>
+						</child>
+					</children>
+				</child>
+				<child>
+					<layout factory="delegate_StackDockStationFactory">
+						<selected>0</selected>
+						<placeholders>
+							<version>0</version>
+							<format>dock.PlaceholderList</format>
+							<entry>
+								<key shared="false">
+									<placeholder>dock.single.right\-bottom.last</placeholder>
+									<placeholder>dock.single.IPA\ Dictionary</placeholder>
+									<placeholder>dock.single.right\-bottom</placeholder>
+								</key>
+								<item key="convert" type="b">true</item>
+								<item key="convert-keys" type="a">
+									<item type="s">index</item>
+									<item type="s">id</item>
+									<item type="s">placeholder</item>
+								</item>
+								<item key="dock.index" type="i">0</item>
+								<item key="dock.id" type="i">0</item>
+								<item key="dock.placeholder" type="s">dock.single.IPA\ Dictionary</item>
+							</entry>
+							<entry>
+								<key shared="false">
+									<placeholder>dock.single.Syllabification\ \&amp;\ Alignment</placeholder>
+								</key>
+							</entry>
+							<entry>
+								<key shared="false">
+									<placeholder>dock.single.Search</placeholder>
+								</key>
+								<item key="convert" type="b">true</item>
+								<item key="convert-keys" type="a">
+									<item type="s">index</item>
+									<item type="s">id</item>
+									<item type="s">placeholder</item>
+								</item>
+								<item key="dock.index" type="i">1</item>
+								<item key="dock.id" type="i">1</item>
+								<item key="dock.placeholder" type="s">dock.single.Search</item>
+							</entry>
+							<entry>
+								<key shared="false">
+									<placeholder>dock.single.right\-top</placeholder>
+									<placeholder>dock.single.Schwa</placeholder>
+									<placeholder>dock.single.right\-top.last</placeholder>
+								</key>
+								<item key="convert" type="b">true</item>
+								<item key="convert-keys" type="a">
+									<item type="s">index</item>
+									<item type="s">id</item>
+									<item type="s">placeholder</item>
+								</item>
+								<item key="dock.index" type="i">2</item>
+								<item key="dock.id" type="i">2</item>
+								<item key="dock.placeholder" type="s">dock.single.Schwa</item>
+							</entry>
+						</placeholders>
+					</layout>
+					<children ignore="false">
+						<child>
+							<layout factory="predefined" placeholder="dock.single.IPA\ Dictionary">
+								<replacement id="dockablesingle IPA Dictionary"/>
+								<delegate id="delegate_ccontrol backup factory id">
+									<id>IPA Dictionary</id>
+									<area/>
+								</delegate>
+							</layout>
+							<children ignore="false"/>
+						</child>
+						<child>
+							<layout factory="predefined" placeholder="dock.single.Search">
+								<replacement id="dockablesingle Search"/>
+								<delegate id="delegate_ccontrol backup factory id">
+									<id>Search</id>
+									<area/>
+								</delegate>
+							</layout>
+							<children ignore="false"/>
+						</child>
+						<child>
+							<layout factory="predefined" placeholder="dock.single.Schwa">
+								<replacement id="dockablesingle Schwa"/>
+								<delegate id="delegate_ccontrol backup factory id">
+									<id>Schwa</id>
+									<area/>
+								</delegate>
+							</layout>
+							<children ignore="false"/>
+						</child>
+					</children>
+				</child>
+				<child>
+					<layout factory="predefined" placeholder="dock.single.Session\ Check">
+						<replacement id="dockablesingle Session Check"/>
+						<delegate id="delegate_ccontrol backup factory id">
+							<id>Session Check</id>
+							<area/>
+						</delegate>
+					</layout>
+					<children ignore="false"/>
+				</child>
+			</children>
+		</element>
+		<element name="ccontrol west">
+			<layout factory="predefined">
+				<replacement id="rootccontrol west"/>
+				<delegate id="delegate_CommonDockStationFactory">
+					<id>ccontrol west</id>
+					<root>true</root>
+					<content delegate="flap dock">
+						<window auto="true" direction="SOUTH"/>
+						<placeholders>
+							<version>0</version>
+							<format>dock.PlaceholderList</format>
+						</placeholders>
+					</content>
+				</delegate>
+			</layout>
+			<adjacent>
+				<layout factory="dock.RootStationAdjacentFactory">
+					<type>dock.CContentArea.minimize</type>
+				</layout>
+			</adjacent>
+			<children ignore="false"/>
+		</element>
+	</stations>
+	<invisible>
+		<dockable key="single Search">
+			<location root="ccontrol center" mode="dock.mode.normal" applicationDefined="false">
+				<property factory="SplitDockPlaceholderProperty">
+					<placeholder>dock.single.Search</placeholder>
+					<backup-path>
+						<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+						<node location="RIGHT" size="0.75" id="1782300184394"/>
+						<node location="RIGHT" size="0.33333333333333337" id="1782300184402"/>
+						<leaf id="1782300184418"/>
+					</backup-path>
+				</property>
+				<property factory="StackDockPropertyFactory">
+					<index>1</index>
+					<placeholder>dock.single.Search</placeholder>
+				</property>
+			</location>
+		</dockable>
+		<dockable key="single work">
+			<location root="ccontrol center" mode="dock.mode.normal" applicationDefined="false">
+				<property factory="SplitDockPlaceholderProperty">
+					<placeholder>dock.single.work</placeholder>
+					<backup-path>
+						<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+						<node location="RIGHT" size="0.75" id="1782300184394"/>
+						<node location="LEFT" size="0.6666666666666666" id="1782300184402"/>
+						<node location="BOTTOM" size="0.75" id="1782300184404"/>
+						<node location="TOP" size="0.75" id="1782300184408"/>
+						<leaf id="1782300184410"/>
+					</backup-path>
+				</property>
+			</location>
+		</dockable>
+		<dockable key="single Schwa">
+			<location root="ccontrol center" mode="dock.mode.normal" applicationDefined="false">
+				<property factory="SplitDockPlaceholderProperty">
+					<placeholder>dock.single.Schwa</placeholder>
+					<backup-path>
+						<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+						<node location="RIGHT" size="0.75" id="1782300184394"/>
+						<node location="RIGHT" size="0.33333333333333337" id="1782300184402"/>
+						<leaf id="1782300184418"/>
+					</backup-path>
+				</property>
+				<property factory="StackDockPropertyFactory">
+					<index>2</index>
+					<placeholder>dock.single.Schwa</placeholder>
+				</property>
+			</location>
+		</dockable>
+		<dockable key="single Transcript">
+			<location root="work" mode="dock.mode.normal" applicationDefined="false">
+				<property factory="SplitDockPlaceholderProperty">
+					<placeholder>dock.single.Transcript</placeholder>
+					<backup-path>
+						<leaf id="1782300184391"/>
+					</backup-path>
+				</property>
+			</location>
+		</dockable>
+		<dockable key="single IPA Dictionary">
+			<location root="ccontrol center" mode="dock.mode.normal" applicationDefined="false">
+				<property factory="SplitDockPlaceholderProperty">
+					<placeholder>dock.single.IPA\ Dictionary</placeholder>
+					<backup-path>
+						<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+						<node location="RIGHT" size="0.75" id="1782300184394"/>
+						<node location="RIGHT" size="0.33333333333333337" id="1782300184402"/>
+						<leaf id="1782300184418"/>
+					</backup-path>
+				</property>
+				<property factory="StackDockPropertyFactory">
+					<index>0</index>
+					<placeholder>dock.single.IPA\ Dictionary</placeholder>
+				</property>
+			</location>
+		</dockable>
+		<dockable key="single Session Check">
+			<location root="ccontrol center" mode="dock.mode.normal" applicationDefined="false">
+				<property factory="SplitDockPlaceholderProperty">
+					<placeholder>dock.single.Session\ Check</placeholder>
+					<backup-path>
+						<node location="BOTTOM" size="0.27969762419006483" id="1782300184392"/>
+						<node location="LEFT" size="0.5" id="1782300184420"/>
+						<leaf id="1782300184422"/>
+					</backup-path>
+				</property>
+			</location>
+		</dockable>
+	</invisible>
+	<modes>
+		<dockables>
+			<entry id="single ccontrol center">
+				<history/>
+				<properties/>
+			</entry>
+			<entry id="single work" current="dock.mode.normal">
+				<history>
+					<mode>dock.mode.normal</mode>
+				</history>
+				<properties>
+					<property id="dock.mode.normal">
+						<mode>dock.mode.normal</mode>
+						<root>ccontrol center</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockPlaceholderProperty">
+								<placeholder>dock.single.work</placeholder>
+								<backup-path>
+									<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+									<node location="RIGHT" size="0.75" id="1782300184394"/>
+									<node location="LEFT" size="0.6666666666666666" id="1782300184402"/>
+									<node location="BOTTOM" size="0.75" id="1782300184404"/>
+									<node location="TOP" size="0.75" id="1782300184408"/>
+									<leaf id="1782300184410"/>
+								</backup-path>
+							</property>
+						</location>
+					</property>
+				</properties>
+			</entry>
+			<entry id="single Transcript" current="dock.mode.normal">
+				<history>
+					<mode>dock.mode.normal</mode>
+				</history>
+				<properties>
+					<property id="dock.mode.normal">
+						<mode>dock.mode.normal</mode>
+						<root>work</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockPlaceholderProperty">
+								<placeholder>dock.single.Transcript</placeholder>
+								<backup-path>
+									<leaf id="1782300184391"/>
+								</backup-path>
+							</property>
+						</location>
+					</property>
+				</properties>
+			</entry>
+			<entry id="single IPA Dictionary" current="dock.mode.normal">
+				<history>
+					<mode>dock.mode.normal</mode>
+				</history>
+				<properties>
+					<property id="dock.mode.normal">
+						<mode>dock.mode.normal</mode>
+						<root>ccontrol center</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockPlaceholderProperty">
+								<placeholder>dock.single.IPA\ Dictionary</placeholder>
+								<backup-path>
+									<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+									<node location="RIGHT" size="0.75" id="1782300184394"/>
+									<node location="RIGHT" size="0.33333333333333337" id="1782300184402"/>
+									<leaf id="1782300184418"/>
+								</backup-path>
+							</property>
+							<property factory="StackDockPropertyFactory">
+								<index>0</index>
+								<placeholder>dock.single.IPA\ Dictionary</placeholder>
+							</property>
+						</location>
+					</property>
+				</properties>
+			</entry>
+			<entry id="single Search" current="dock.mode.normal">
+				<history>
+					<mode>dock.mode.normal</mode>
+				</history>
+				<properties>
+					<property id="dock.mode.normal">
+						<mode>dock.mode.normal</mode>
+						<root>ccontrol center</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockPlaceholderProperty">
+								<placeholder>dock.single.Search</placeholder>
+								<backup-path>
+									<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+									<node location="RIGHT" size="0.75" id="1782300184394"/>
+									<node location="RIGHT" size="0.33333333333333337" id="1782300184402"/>
+									<leaf id="1782300184418"/>
+								</backup-path>
+							</property>
+							<property factory="StackDockPropertyFactory">
+								<index>1</index>
+								<placeholder>dock.single.Search</placeholder>
+							</property>
+						</location>
+					</property>
+				</properties>
+			</entry>
+			<entry id="single Schwa" current="dock.mode.normal">
+				<history>
+					<mode>dock.mode.normal</mode>
+				</history>
+				<properties>
+					<property id="dock.mode.normal">
+						<mode>dock.mode.normal</mode>
+						<root>ccontrol center</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockPlaceholderProperty">
+								<placeholder>dock.single.Schwa</placeholder>
+								<backup-path>
+									<node location="TOP" size="0.7203023758099352" id="1782300184392"/>
+									<node location="RIGHT" size="0.75" id="1782300184394"/>
+									<node location="RIGHT" size="0.33333333333333337" id="1782300184402"/>
+									<leaf id="1782300184418"/>
+								</backup-path>
+							</property>
+							<property factory="StackDockPropertyFactory">
+								<index>2</index>
+								<placeholder>dock.single.Schwa</placeholder>
+							</property>
+						</location>
+					</property>
+				</properties>
+			</entry>
+			<entry id="single Session Check" current="dock.mode.normal">
+				<history>
+					<mode>dock.mode.maximized</mode>
+					<mode>dock.mode.normal</mode>
+				</history>
+				<properties>
+					<property id="dock.mode.maximized">
+						<mode>dock.mode.maximized</mode>
+						<root>ccontrol center</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockFullScreenPropertyFactory"/>
+							<property factory="StackDockPropertyFactory">
+								<index>1</index>
+								<placeholder>dock.single.Session\ Check</placeholder>
+							</property>
+						</location>
+					</property>
+					<property id="dock.mode.normal">
+						<mode>dock.mode.normal</mode>
+						<root>ccontrol center</root>
+						<applicationDefined>false</applicationDefined>
+						<location>
+							<property factory="SplitDockPlaceholderProperty">
+								<placeholder>dock.single.Session\ Check</placeholder>
+								<backup-path>
+									<node location="BOTTOM" size="0.27969762419006483" id="1782300184392"/>
+									<node location="LEFT" size="0.5" id="1782300184420"/>
+									<leaf id="1782300184422"/>
+								</backup-path>
+							</property>
+						</location>
+					</property>
+				</properties>
+			</entry>
+		</dockables>
+		<modes/>
+	</modes>
+</root>

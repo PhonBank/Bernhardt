@@ -1,0 +1,124 @@
+{
+  "viewProperties": {
+    "Schwa": {"schwa.mode": "ASK"},
+    "IPA Dictionary": {"IPADictionaryView.autoTranscriptionDictionaries": "__user__,eng-au"}
+  },
+  "publish.tierNamesCache": [
+    "Orthography",
+    "IPA Target",
+    "IPA Actual",
+    "Notes",
+    "Comments",
+    "catego",
+    "counte",
+    "type"
+  ],
+  "name": "Bernhardt",
+  "uuid": "c8d1e709-4355-4adc-8d7a-1c94ac0c464e",
+  "treeState": {
+    "expandedPaths": [
+      "Bernhardt",
+      "Bernhardt/S2",
+      "Bernhardt/S3",
+      "Bernhardt/S5",
+      "Bernhardt/ca.phon.app.project.tree.ProjectFilesTree$2@32191a48",
+      "Bernhardt/ca.phon.app.project.tree.ProjectFilesTree$2@32191a48/ScriptSectionNode[type=CUSTOM, scriptFolderPath=null]",
+      "Bernhardt/ca.phon.app.project.tree.ProjectFilesTree$2@32191a48/ScriptSectionNode[type=CUSTOM, scriptFolderPath=null]/MyScripts"
+    ],
+    "selectedPath": "S5/060400.xml"
+  },
+  "projectTree": {
+    "showAllFiles": false,
+    "showAnalyses": false,
+    "showQueries": false,
+    "showHiddenFiles": false,
+    "showScripts": true,
+    "showMedia": true
+  },
+  "participants": [
+    {
+      "birthday": "1982-11-01",
+      "SES": "",
+      "other": "",
+      "role": "SUBJECT",
+      "education": "",
+      "birthplace": "",
+      "sex": "MALE",
+      "name": "Gordon",
+      "language": "eng",
+      "id": "CHI",
+      "firstLanguage": "",
+      "group": ""
+    },
+    {
+      "birthday": "1984-11-01",
+      "SES": "",
+      "other": "",
+      "role": "SUBJECT",
+      "education": "",
+      "birthplace": "",
+      "sex": "MALE",
+      "name": "Blair",
+      "language": "eng",
+      "id": "CHI",
+      "firstLanguage": "",
+      "group": ""
+    },
+    {
+      "birthday": "1985-09-01",
+      "SES": "",
+      "other": "",
+      "role": "SUBJECT",
+      "education": "",
+      "birthplace": "",
+      "sex": "MALE",
+      "name": "Jeremy",
+      "language": "eng",
+      "id": "CHI",
+      "firstLanguage": "",
+      "group": ""
+    },
+    {
+      "birthday": "1985-07-01",
+      "SES": "",
+      "other": "",
+      "role": "SUBJECT",
+      "education": "",
+      "birthplace": "",
+      "sex": "MALE",
+      "name": "Sean",
+      "language": "eng",
+      "id": "CHI",
+      "firstLanguage": "",
+      "group": ""
+    },
+    {
+      "birthday": "1983-03-01",
+      "SES": "",
+      "other": "",
+      "role": "SUBJECT",
+      "education": "",
+      "birthplace": "",
+      "sex": "MALE",
+      "name": "Charles",
+      "language": "eng",
+      "id": "CHI",
+      "firstLanguage": "",
+      "group": ""
+    },
+    {
+      "birthday": "1986-03-01",
+      "SES": "",
+      "other": "",
+      "role": "SUBJECT",
+      "education": "",
+      "birthplace": "",
+      "sex": "FEMALE",
+      "name": "Annie",
+      "language": "eng",
+      "id": "CHI",
+      "firstLanguage": "",
+      "group": ""
+    }
+  ]
+}
