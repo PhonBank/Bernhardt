@@ -75,11 +75,11 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5 6</top>
-          <bottom>-1 -1 0 -1 1 2 3</bottom>
+          <bottom>0 -1 1 -1 2 3 4</bottom>
         </pm>
         <pm target="1" actual="1">
           <top>0 1 2 3 4 5 6</top>
-          <bottom>-1 -1 0 -1 -1 1 2</bottom>
+          <bottom>0 -1 1 -1 -1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -1204,7 +1204,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4</top>
-          <bottom>-1 0 1 2 3</bottom>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -1234,7 +1234,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 -1 2 3 4</top>
-          <bottom>-1 0 1 2 3 4</bottom>
+          <bottom>0 1 2 3 4 5</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7808,7 +7808,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5 6 7 8 9</top>
-          <bottom>-1 0 1 2 3 4 5 6 7 8</bottom>
+          <bottom>0 1 2 3 4 5 6 7 8 9</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8642,8 +8642,8 @@
       </ipaActual>
       <alignment>
         <pm target="0" actual="0">
-          <top>-1 0 1 2 3 4 -1</top>
-          <bottom>0 -1 1 2 3 4 5</bottom>
+          <top>0 -1 1 2 3 4 -1</top>
+          <bottom>0 1 2 3 4 5 6</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8697,7 +8697,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1</top>
-          <bottom>-1 0</bottom>
+          <bottom>0 1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8874,7 +8874,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1</top>
-          <bottom>-1 0</bottom>
+          <bottom>0 1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -9667,7 +9667,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -9955,7 +9955,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -9988,7 +9988,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10015,7 +10015,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 -1</bottom>
+          <bottom>0 1 2 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10045,7 +10045,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 -1 2 3</top>
-          <bottom>-1 0 1 2 3</bottom>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10162,7 +10162,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5</top>
-          <bottom>-1 0 1 2 3 4</bottom>
+          <bottom>0 1 2 3 4 5</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10282,7 +10282,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5 6 -1</top>
-          <bottom>-1 0 1 2 3 4 5 6</bottom>
+          <bottom>0 1 2 3 4 5 6 7</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10342,7 +10342,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10372,7 +10372,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4</top>
-          <bottom>-1 0 1 2 3</bottom>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10486,7 +10486,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 -1 2</top>
-          <bottom>-1 0 1 -1</bottom>
+          <bottom>0 1 2 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10543,7 +10543,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 -1 0</bottom>
+          <bottom>0 -1 1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10573,7 +10573,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10897,7 +10897,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10924,7 +10924,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -10984,7 +10984,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 -1 5</top>
-          <bottom>-1 0 1 2 3 4 -1</bottom>
+          <bottom>0 1 2 3 4 5 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -11014,7 +11014,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4</top>
-          <bottom>-1 0 1 2 3</bottom>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -11134,7 +11134,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -11191,7 +11191,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -11218,7 +11218,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5</top>
-          <bottom>-1 -1 0 1 2 3</bottom>
+          <bottom>0 -1 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>

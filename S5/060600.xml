@@ -659,7 +659,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -716,7 +716,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -830,7 +830,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -5709,7 +5709,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6042,7 +6042,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 -1</bottom>
+          <bottom>0 1 2 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6069,7 +6069,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5</top>
-          <bottom>-1 0 1 2 3 4</bottom>
+          <bottom>0 1 2 3 4 5</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6096,7 +6096,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5</top>
-          <bottom>-1 -1 0 1 2 3</bottom>
+          <bottom>0 -1 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6126,7 +6126,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5 6</top>
-          <bottom>-1 0 1 -1 2 3 4</bottom>
+          <bottom>0 1 2 -1 3 4 5</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6237,7 +6237,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6666,7 +6666,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5 -1 6 7 8</top>
-          <bottom>-1 0 1 2 -1 3 4 5 6 7</bottom>
+          <bottom>0 1 2 3 -1 4 5 6 7 8</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6785,7 +6785,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1</top>
-          <bottom>-1 0</bottom>
+          <bottom>0 1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6838,8 +6838,8 @@
       </ipaActual>
       <alignment>
         <pm target="0" actual="0">
-          <top>-1 0 1</top>
-          <bottom>0 -1 1</bottom>
+          <top>0 -1 1</top>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6866,7 +6866,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 -1</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -6986,7 +6986,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 -1</bottom>
+          <bottom>0 1 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7013,7 +7013,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 -1</top>
-          <bottom>-1 0 1 2 3</bottom>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7040,7 +7040,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 -1 2 3 -1</top>
-          <bottom>-1 0 1 2 3 4</bottom>
+          <bottom>0 1 2 3 4 5</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7184,7 +7184,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5</top>
-          <bottom>-1 0 -1 1 2 3</bottom>
+          <bottom>0 1 -1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7739,7 +7739,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7769,7 +7769,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7799,7 +7799,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 -1</bottom>
+          <bottom>0 1 2 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7883,7 +7883,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4 5</top>
-          <bottom>-1 0 -1 1 2 3</bottom>
+          <bottom>0 1 -1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7937,7 +7937,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 2</bottom>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -7967,7 +7967,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3 4</top>
-          <bottom>-1 0 1 2 3</bottom>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8230,7 +8230,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8286,8 +8286,8 @@
       </ipaActual>
       <alignment>
         <pm target="0" actual="0">
-          <top>-1 0 1 2</top>
-          <bottom>0 1 -1 2</bottom>
+          <top>0 1 -1 2</top>
+          <bottom>0 1 2 3</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8344,7 +8344,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8434,7 +8434,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 -1 1</bottom>
+          <bottom>0 1 -1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8603,11 +8603,11 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
         <pm target="1" actual="1">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8664,7 +8664,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2</top>
-          <bottom>-1 0 1</bottom>
+          <bottom>0 1 2</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8718,7 +8718,7 @@
       <alignment>
         <pm target="0" actual="0">
           <top>0 1 2 3</top>
-          <bottom>-1 0 1 -1</bottom>
+          <bottom>0 1 2 -1</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
@@ -8774,8 +8774,8 @@
       </ipaActual>
       <alignment>
         <pm target="0" actual="0">
-          <top>-1 0 1 2 3</top>
-          <bottom>0 -1 1 2 3</bottom>
+          <top>0 -1 1 2 3</top>
+          <bottom>0 1 2 3 4</bottom>
         </pm>
       </alignment>
       <segment start="0.0" end="0.0" unit="ms"/>
